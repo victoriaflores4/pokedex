@@ -1,0 +1,36 @@
+.menu-list {
+    max-width: 200px;
+}
+
+.menu-list .menu-pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: #6b727a;
+    color: #ffffff;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out;
+}
+
+.menu-list .menu-pokemon:hover {
+    transform: scale(1.05);
+}
+
+.menu-list .menu-pokemon img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.menu-list .menu-pokemon span {
+    padding-right: 20px;
+}
+
+.menu-list .menu-pokemon.active {
+    background-color: #fa6668 ;
+}

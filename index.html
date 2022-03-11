@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex Vicx</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/card.css">
+    <link rel="stylesheet" href="src/css/list.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <main>
         <div class="pokedex">
             <div class="pokemon-cards">
-                <div class="pokemon-card">
+                <div class="pokemon-card open type-electric">
                     <div class="card-top">
                         <div class="description">
                             <h2 class="name">Pikachu</h2>
@@ -35,17 +44,13 @@
                                 <li>Velocidade: 300</li>
                                 <li>Total: 1700</li>
                             </ul>
-
-                            <div>
-                                <div class="skills">
-                                    <h3>skills</h3>
-                                    <ul>
-                                        <li>Thundershock</li>
-                                        <li>Headbutt</li>
-                                    </ul>
-                                </div>
-                            </div>
-
+                        </div>
+                        <div class="skills">
+                            <h3>Skills</h3>
+                            <ul>
+                                <li>Thundershock</li>
+                                <li>Headbutt</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -249,7 +254,7 @@
 
             <nav class="menu-list">
                 <ul>
-                    <li class="menu-pokemon">
+                    <li class="menu-pokemon active">
                         <img src="src/img/cabeca-pikachu.png" alt="Pikachu Head">
                         <span>Pikachu</span>
                     </li>
