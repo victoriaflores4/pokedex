@@ -37,7 +37,7 @@
         justify-content: space-around;
     }
 
-    .menu-list .menu-pokemon {
+    .menu-list .menupokemon {
         width: 140px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
@@ -45,7 +45,7 @@
         border-radius: 8px;
     }
 
-    .menu-list .menu-pokemon span {
+    .menu-list .menupokemon span {
         padding-right: 5px;
     }
 

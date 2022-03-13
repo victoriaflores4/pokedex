@@ -2,7 +2,7 @@
     max-width: 200px;
 }
 
-.menu-list .menu-pokemon {
+.menu-list .menupokemon {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -18,19 +18,19 @@
     transition: 0.15s ease-in-out;
 }
 
-.menu-list .menu-pokemon:hover {
+.menu-list .menupokemon:hover {
     transform: scale(1.05);
 }
 
-.menu-list .menu-pokemon img {
+.menu-list .menupokemon img {
     width: 25%;
     border-radius: 50%;
 }
 
-.menu-list .menu-pokemon span {
+.menu-list .menupokemon span {
     padding-right: 20px;
 }
 
-.menu-list .menu-pokemon.active {
+.menu-list .menupokemon.active {
     background-color: #fa6668 ;
 }
